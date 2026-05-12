@@ -1,0 +1,66 @@
+h1 {
+  color: rgb(224, 14, 14);
+  font-size: 32px;
+  text-align:left;
+}
+ 
+p {
+  color:green;
+  line-height: 1.8;
+}
+ 
+#details {
+  background-color: lightblue;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.jiko{font-size:25px;
+font-weight: bold;
+color:green;
+text-align:left}
+ul{font-size:18px;
+  font-weight: bold;
+color:black;
+text-align:left;
+list-style: none;
+}
+.ooyama{font-size:20px;
+font-weight: bold;
+color:red;
+text-align:left
+}
+.card {
+  display: flex;        
+  align-items: center;  
+  width: 700px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover; 
+  flex-shrink: 0;
+}
+.card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.card-button:hover {
+  background-color: #0056b3;
+}
+
