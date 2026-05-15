@@ -44,5 +44,3 @@ Button3.addEventListener("click", function() {
   count2.textContent = count
 })
 require('dotenv').config()
-console.log(process.env.MY_NAME)
-console.log(process.env.MY_SECRET)
